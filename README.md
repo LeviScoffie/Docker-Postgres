@@ -4,8 +4,9 @@ This is a light project that helps us learn how to use postrges and pgAdmin loca
 Also we will perform some **CRUD** operations to create tables of sql practice as well as some answering some questions using sql queries. 
 
 
-**side note**: _Docker image is a snapshot of all the instructions you container has_.
-_Spark is a thing for definiing datapipelines and we can use docker images to specify the dependecies needed for job orchestration of a pipeline using spark_
+**side note**: 
+* _Docker image is a snapshot of all the instructions you container has_.
+* _Spark is a thing for definiing datapipelines and we can use docker images to specify the dependecies needed for job orchestration of a pipeline using spark_
 
 We need to pull the docker image of postgres to be able to use it. Airflow docker image has an instance of postgres and therfore we can use that to fire up our own postgres container.
 
