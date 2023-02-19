@@ -1,4 +1,4 @@
-## LIGHT DOCKER AND SQL PRACTICE (POSTGRD AND PGADMIN)
+## LIGHT DOCKER AND SQL PRACTICE (POSTGRES AND PGADMIN)
 
 This is a light project that helps us learn how to use postrges and pgAdmin locally using **Docker** containers without having necessarily to download the two softwares. Also, if already downloaded, the two containers will not confict with the already downloaded software and thus we can do development as we deem fit.
 Also we will perform some **CRUD** operations to create tables of sql practice as well as some answering some questions using sql queries. 
