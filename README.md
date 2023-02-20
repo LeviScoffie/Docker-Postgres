@@ -4,9 +4,9 @@ This is a light project that helps us learn how to use postrges and pgAdmin loca
 Also we will perform some **CRUD** operations to create tables of sql practice as well as some answering some questions using sql queries. 
 
 
-**side note**: 
-* _Docker image is a snapshot of all the instructions you container has_.
-* _Spark is a thing for definiing datapipelines and we can use docker images to specify the dependecies needed for job orchestration of a pipeline using spark_
+**side note**:
+*  _Docker image is a snapshot of all the instructions you container has_.
+*_Spark is a thing for definiing datapipelines and we can use docker images to specify the dependecies needed for job orchestration of a pipeline using spark_
 
 We need to pull the docker image of postgres to be able to use it. Airflow docker image has an instance of postgres and therfore we can use that to fire up our own postgres container.
 
@@ -85,3 +85,25 @@ Network with pgadmin
       --name pgadmin \
       dpage/pgadmin4
 ```
+
+### USING DOCKER COMPOSE TO FIRE UP THE 2 DOCKER CONTAINERS (POSTGRES AND PGADMIN)
+---
+* We can specify one yaml file with the configs of both the containers.
+* Docker compose allows to do this.
+
+##### Step 1 
+- Download and Install docker-compose.
+
+
+##### Step 2 
+- Define services in your .yml config file.
+
+##### Step 3 
+- Fire up the containers on the terminal using 
+`docker-compose up`
+- You can also do it in detach mode and this way we get the terminal back and don't need to open another terminal for operations.
+`docker-compose up -d`
+
+##### Step 4 
+- Kill the docker compose using  
+`docker-compose down`
